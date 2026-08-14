@@ -1,0 +1,35 @@
+name: twenty_app
+description: Application mobile Twenty.tn - Marketplace Tunisien
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.1
+  badges: ^3.1.2
+  flutter_rating_bar: ^4.0.1
+  provider: ^6.0.5
+  shimmer: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^5.1.2
+  google_fonts: ^6.1.0
+  http: ^1.2.0
+  shared_preferences: ^2.2.3
+  xml: ^6.5.0
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
